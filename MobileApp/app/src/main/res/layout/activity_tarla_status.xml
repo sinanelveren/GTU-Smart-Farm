@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorApp"
+    tools:context=".TarlaStatus">
+
+
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appBarr"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:gravity="center"
+        app:elevation="0dp">
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/greenButton"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_gravity="center"
+            android:backgroundTint="@color/colorTransparan"
+            app:borderWidth="0dp"
+            android:src="@drawable/red_button2"
+            app:maxImageSize="115dp"
+            app:fabCustomSize="120dp"
+            tools:ignore="UnusedAttribute"
+            app:elevation="0dp"
+            android:onClick="tickClickedBack"
+
+            />
+    </android.support.design.widget.AppBarLayout>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:text="@string/tarla_anlik_durum"
+        android:textColor="#71e625"
+        android:layout_marginTop="8dp"
+        />
+
+    <TableLayout
+        android:id="@+id/tableLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:stretchColumns="*"
+        android:scrollbarAlwaysDrawVerticalTrack="true"
+        >
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="0">
+
+            <ImageButton
+                android:id="@+id/tableButton1"
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:backgroundTint="#ff0000"
+
+                android:scaleType="fitXY"
+                android:src="@drawable/tempicon"
+                />
+
+            <ImageButton
+                android:id="@+id/tableButton2"
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:backgroundTint="#009900"
+                android:scaleType="fitXY"
+                android:src="@drawable/green_button"
+                />
+
+            <ImageButton
+                android:id="@+id/tableButton3"
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:backgroundTint="#009900"
+                android:scaleType="fitXY"
+                android:src="@mipmap/baseline_done_black_24dp"
+                />
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:scaleType="fitXY"
+            android:layout_weight="0"
+            >
+
+            <ImageButton
+                android:id="@+id/tableButton4"
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/nemicon"
+                android:backgroundTint="#009900"
+                />
+
+            <ImageButton
+                android:id="@+id/tableButton5"
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/kavunicon"
+                android:backgroundTint="#FFEE00"
+                />
+
+            <ImageButton
+                android:id="@+id/tableButton6"
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/sarimsakicon"
+                android:backgroundTint="#009900"
+                />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:scaleType="fitXY"
+            android:layout_weight="0">
+            <ImageButton
+                android:id="@+id/tableButton7"
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:scaleType="fitXY"
+                android:backgroundTint="#009900"
+                android:src="@drawable/tomatoicon"
+                />
+            <ImageButton
+                android:id="@+id/tableButton8"
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:scaleType="fitXY"
+                android:backgroundTint="#009900"
+                android:src="@drawable/patlicanicon"
+                />
+            <ImageButton
+                android:id="@+id/tableButton9"
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:scaleType="fitXY"
+                android:backgroundTint="#009900"
+                android:src="@drawable/melonicon"
+                />
+        </TableRow>
+
+
+        <TableRow
+            android:id="@+id/tableRow4"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:scaleType="fitXY"
+            android:layout_weight="0">
+            <ImageButton
+                android:id="@+id/tableButton10"
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:scaleType="fitXY"
+                android:backgroundTint="@color/colorApp"
+                android:src="@drawable/plus_add_green"/>
+
+        </TableRow>
+
+
+    </TableLayout>
+
+
+
+
+</LinearLayout>

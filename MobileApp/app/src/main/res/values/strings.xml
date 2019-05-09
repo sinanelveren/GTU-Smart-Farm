@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Akıllı Tarım</string>
+    <string name="delete_user">Hesabı Sil</string>
+    <string name="logout">Çıkış Yap</string>
+    <string name="tarla_anlik_durum">Tarla Anlık Durum</string>
+    <string name="password">Parola</string>
+    <string name="login">Giriş</string>
+    <string name="register">Kayıt ol!</string>
+    <string name="i_forgot_password">Şifremi unuttum</string>
+    <string name="or">veya</string>
+    <string name="e_mail">E-posta</string>
+    <string name="submit_new_password_link">Yeni parola al</string>
+    <string name="x">X</string>
+    <string name="ekin_zaman">Ekin Zamanı</string>
+    <string name="note_ekle">Note Ekle...</string>
+    <string name="urunu_ekle">Ürünü Ekle</string>
+    <string name="mail">E-posta</string>
+    <string name="parola">Parola</string>
+    <string name="uye_ol">Üye Ol!</string>
+    <string name="zaren_uye_misin">Zaten üyeyeim</string>
+    <string name="statistikler">İstatistikler</string>
+    <string name="go_farm">Tarlaya Git</string>
+    <string name="signwithG">Oturum aç</string>
+</resources>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+      "project_number": "956125805154",
+    "firebase_url": "https://akillitarimgtu.firebaseio.com",
+    "project_id": "akillitarimgtu",
+    "storage_bucket": "akillitarimgtu.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:956125805154:android:9e1c691ad7ce381a",
+        "android_client_info": {
+          "package_name": "com.example.aurora.akillitarim"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "956125805154-jduu3t31f7251fats2sgg1nslp4gmc89.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.aurora.akillitarim",
+            "certificate_hash": "a16a797b5b6f6686f0d3d82b0cab983cbe97fcdc"
+          }
+        },
+        {
+          "client_id": "956125805154-06obkaol9h1fk7uvg03pqcekbbnjrba4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-AG_5Mf4mY4xWZCxDmAiR6FKoNcxHgtQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "956125805154-06obkaol9h1fk7uvg03pqcekbbnjrba4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

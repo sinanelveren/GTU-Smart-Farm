@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|center"
+        android:text="@string/statistikler"
+        android:textColor="#022000"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TabHost
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TabWidget
+                android:id="@android:id/tabs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+
+            <FrameLayout
+                android:id="@android:id/tabcontent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:id="@+id/ÜRÜNLER"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+
+                    > <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:text="Hasat Zamanı             İlaçlama Zamanı         "
+                    android:textColor="#022000"
+                    android:textStyle="bold"
+                    android:layout_marginTop="10dp"/>
+
+
+
+                    <ListView
+                        android:id="@+id/listViewProductS"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="6"
+                        android:layout_marginTop="50dp"
+                        >
+
+                    </ListView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/AYLIK"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/YILLIK"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                </LinearLayout>
+            </FrameLayout>
+        </LinearLayout>
+    </TabHost>
+</LinearLayout>

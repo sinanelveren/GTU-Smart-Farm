@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="#FFF">
+
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:layout_marginTop="10dp"
+            android:hint="@string/e_mail"
+            android:id="@+id/girisEmail" />
+
+    </android.support.design.widget.TextInputLayout>
+
+
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:ems="10"
+            android:layout_marginTop="10dp"
+            android:id="@+id/girisParola"
+            android:hint="@string/password" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <Button
+            android:text="@string/login"
+            android:id="@+id/girisButton"
+            android:layout_width="140dp"
+            android:layout_height="45dp"
+            android:textColor="#FFFF"
+            android:textAllCaps="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@color/colorAccent"/>
+
+        <Button
+            android:id="@+id/uyeOlButton"
+            android:layout_width="140dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/colorAccent"
+            android:text="@string/register"
+            android:textColor="#FFFF" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/yeniSifreButton"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:background="@null"
+        android:text="@string/i_forgot_password"
+        android:textAllCaps="false"
+        android:textColor="@color/colorPrimary" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/or"
+        android:gravity="center"
+        android:textColor="@color/colorPrimary"/>
+
+    <com.google.android.gms.common.SignInButton
+        android:id="@+id/sign_in_button"
+        android:layout_width="200dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="15dp"
+        android:hapticFeedbackEnabled="true"
+        app:buttonSize="wide"
+        app:colorScheme="dark" />
+
+</LinearLayout>
