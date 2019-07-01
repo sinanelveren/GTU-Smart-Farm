@@ -42,7 +42,6 @@ public class HomeActivity extends AppCompatActivity {
     public void tickClicked(View view) {
         Intent myIntent = new Intent(this, TarlaStatus.class);
         this.startActivity(myIntent);
-        finish();
     }
 /*
 

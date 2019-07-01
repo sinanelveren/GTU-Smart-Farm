@@ -1,15 +1,14 @@
 // Top-level build file where you can add configuration options common to all sub-projects/modules.
 
-
 buildscript {
-
+    
     repositories {
         google()
         jcenter()
         // If you're using a version of Gradle lower than 4.1, you must instead use:
-        maven {
-            url 'https://maven.google.com'
-        }
+         maven {
+             url 'https://maven.google.com'
+         }
         // An alternative URL is 'https://dl.google.com/dl/android/maven2/'
 
     }
@@ -23,7 +22,6 @@ buildscript {
 
         // NOTE: Do not place your application dependencies here; they belong
         // in the individual module build.gradle files
-
     }
 }
 ext {
@@ -39,8 +37,6 @@ allprojects {
     repositories {
         google()
         jcenter()
-        maven { url 'https://jitpack.io' }
-
     }
 }
 
