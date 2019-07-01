@@ -21,4 +21,14 @@
     <string name="statistikler">İstatistikler</string>
     <string name="go_farm">Tarlaya Git</string>
     <string name="signwithG">Oturum aç</string>
+
+    <string name="title_activity_chart_pie">ChartPie</string>
+    <string name="dummy_button_pie">ANLIK DURUM</string>
+    <string name="dummy_content_pie">İSTATİSTİK\n</string>
+    <string name="vana">Vana (Aktif/Pasif)</string>
+    <string name="geri_git">GERİ GİT</string>
+
+    <string name="title_activity_chart_pie_total">activity_chart_pie_total</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
 </resources>

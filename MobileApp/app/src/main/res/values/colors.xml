@@ -2,6 +2,7 @@
 <resources>
     <color name="colorPrimary">#007c4f</color>
     <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorPrimaryDarkTransparent">#b9187e26</color>
     <color name="colorAccent">#a8eae1</color>
     <color name="q">#ffffff</color>
     <color name="colorApp">#04693e</color>
@@ -11,6 +12,7 @@
     <color name="colorGrey">#e3e3e3</color>
     <color name="colorText">#4fbea7</color>
 
+    <color name="black_overlay">#66000000</color>
 
 
 </resources>

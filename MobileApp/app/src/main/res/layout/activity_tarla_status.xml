@@ -33,6 +33,15 @@
             android:onClick="tickClickedBack"
 
             />
+        <Switch
+            android:id="@+id/vanaSwitch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/vana"
+            android:textStyle="bold"
+            android:textColor="@color/colorText"
+            android:checked="true"
+            android:layout_gravity="end"/>
     </android.support.design.widget.AppBarLayout>
 
 

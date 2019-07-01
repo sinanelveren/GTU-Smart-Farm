@@ -89,4 +89,9 @@ public class RegisterActivity extends AppCompatActivity {
             startActivity(new Intent(getApplicationContext(),MainActivity.class));
         }
     }
+
+    public void tickClickedBack(View view) {
+        Intent myIntent = new Intent(this, LoginActivity.class);
+        this.startActivity(myIntent);
+    }
 }

@@ -82,26 +82,30 @@ public class LoginActivity extends AppCompatActivity implements GoogleApiClient.
                 final String mail = loginEmail.getText().toString();
                 final String pass = loginPassword.getText().toString();
 
-                firebaseAuth.signInWithEmailAndPassword(mail, pass)
-                        .addOnCompleteListener( new OnCompleteListener<AuthResult>() {
-                            @Override
-                            public void onComplete(@NonNull Task<AuthResult> task) {
-                                if (task.isSuccessful()) {
-                                    // Sign in success, update UI with the signed-in user's information
-                                    Log.d("LOGINBUTTON", "signInWithEmail:success");
+                if(mail.compareTo("") !=0 & pass.compareTo("") != 0 ) {
+                    firebaseAuth.signInWithEmailAndPassword(mail, pass)
+                            .addOnCompleteListener(new OnCompleteListener<AuthResult>() {
+                                @Override
+                                public void onComplete(@NonNull Task<AuthResult> task) {
+                                    if (task.isSuccessful()) {
+                                        // Sign in success, update UI with the signed-in user's information
+                                        Log.d("LOGINBUTTON", "signInWithEmail:success");
+                                        Toast.makeText(getApplicationContext(), "Başarılı giriş", Toast.LENGTH_SHORT).show();
+                                        startActivity(new Intent(getApplicationContext(), MainActivity.class));
+                                        finish();
+                                    } else {
+                                        // If sign in fails, display a message to the user.
+                                        Log.w("LOGINBUTTON", "signInWithEmail:failure", task.getException());
+                                        Toast.makeText(getApplicationContext(), "Hatalı giriş", Toast.LENGTH_SHORT).show();
+                                        //updateUI(null);
+                                    }
 
-                                    startActivity(new Intent(getApplicationContext(),MainActivity.class));
-                                    finish();
-                                } else {
-                                    // If sign in fails, display a message to the user.
-                                    Log.w("LOGINBUTTON", "signInWithEmail:failure", task.getException());
-                                    Toast.makeText(getApplicationContext(), "Hatalı giriş", Toast.LENGTH_SHORT).show();
-                                    //updateUI(null);
+                                    // ...
                                 }
-
-                                // ...
-                            }
-                        });
+                            });
+                }else {
+                    Toast.makeText(getApplicationContext(), "Lütfen bilgilerinizi giriniz", Toast.LENGTH_SHORT).show();
+                }
             }
 
         });
@@ -120,7 +124,7 @@ public class LoginActivity extends AppCompatActivity implements GoogleApiClient.
         registerButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(getApplicationContext(),"Bağlanıyor: kayıt ol",Toast.LENGTH_LONG).show();
+                Toast.makeText(getApplicationContext(),"Kayıt ol",Toast.LENGTH_LONG).show();
                 startActivity(new Intent(getApplicationContext(),RegisterActivity.class));
                 finish();
                 //go back;
@@ -144,7 +148,7 @@ public class LoginActivity extends AppCompatActivity implements GoogleApiClient.
     }
 
     private void signIn() {
-        Toast.makeText(getApplicationContext()," >> sign in",Toast.LENGTH_LONG).show();
+        Toast.makeText(getApplicationContext(),"Google mail ile giriş yap",Toast.LENGTH_LONG).show();
 
         Intent signIntent = Auth.GoogleSignInApi.getSignInIntent(mGoogleApiClient);
         startActivityForResult(signIntent,RC_SIGN_IN);
@@ -152,39 +156,33 @@ public class LoginActivity extends AppCompatActivity implements GoogleApiClient.
 
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
-        Toast.makeText(getApplicationContext(),"onActiveResult",Toast.LENGTH_LONG).show();
-
         super.onActivityResult(requestCode, resultCode, data);
         if(requestCode==RC_SIGN_IN){
             GoogleSignInResult result = Auth.GoogleSignInApi.getSignInResultFromIntent(data);
             if(result.isSuccess()){
-                Toast.makeText(getApplicationContext(),"Signed succesfully",Toast.LENGTH_SHORT).show();
+                Toast.makeText(getApplicationContext(),"Giriş başarılı",Toast.LENGTH_SHORT).show();
                 GoogleSignInAccount account = result.getSignInAccount();
                 authWithGoogle(account);
             }else {
-                Toast.makeText(getApplicationContext(),"Sign unsucces",Toast.LENGTH_SHORT).show();
+                Toast.makeText(getApplicationContext(),"Başarısız giriş",Toast.LENGTH_SHORT).show();
 
             }
         }
     }
 
     private void authWithGoogle(GoogleSignInAccount account) {
-        Toast.makeText(getApplicationContext(),"authWithGoogle",Toast.LENGTH_LONG).show();
-
         AuthCredential credential = GoogleAuthProvider.getCredential(account.getIdToken(),null);
         firebaseAuth.signInWithCredential(credential).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
             @Override
             public void onComplete(@NonNull Task<AuthResult> task) {
-                Toast.makeText(getApplicationContext(),"Auth g",Toast.LENGTH_SHORT).show();
-
                 if(task.isSuccessful()){
-                    Toast.makeText(getApplicationContext(),"succes TASK",Toast.LENGTH_LONG).show();
+                    Toast.makeText(getApplicationContext(),"Doğrulandı",Toast.LENGTH_LONG).show();
 
                     startActivity(new Intent(getApplicationContext(),MainActivity.class));
                     finish();
                 }
                 else{
-                    Toast.makeText(getApplicationContext(),"Auth Error",Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getApplicationContext(),"Doğrulama hatası",Toast.LENGTH_SHORT).show();
                 }
             }
         });
@@ -192,8 +190,7 @@ public class LoginActivity extends AppCompatActivity implements GoogleApiClient.
 
     @Override
     public void onConnectionFailed(@NonNull ConnectionResult connectionResult) {
-        Toast.makeText(getApplicationContext(),"connectio failed",Toast.LENGTH_LONG).show();
+        Toast.makeText(getApplicationContext(),"Bağlantı hatası",Toast.LENGTH_LONG).show();
 
-        System.out.println("Connection failed");
     }
 }
