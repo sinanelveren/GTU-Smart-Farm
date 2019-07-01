@@ -1,0 +1,558 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\Aurora\Desktop\GTU SMART FARM\app\src\main\AndroidManifest.xml:2:1-46:12
+INJECTED from C:\Users\Aurora\Desktop\GTU SMART FARM\app\src\main\AndroidManifest.xml:2:1-46:12
+INJECTED from C:\Users\Aurora\Desktop\GTU SMART FARM\app\src\main\AndroidManifest.xml:2:1-46:12
+INJECTED from C:\Users\Aurora\Desktop\GTU SMART FARM\app\src\main\AndroidManifest.xml:2:1-46:12
+MERGED from [com.android.support:design:28.0.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\b1d85e394329b89cbc23282dfd9de28b\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\d1212d51610addf4e1b2644f16dc88df\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\ff5468dd882572a550c5eeedc68da169\AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\play-services-auth-16.0.1.aar\f223910832b11c0e2bdf9e48ba7abd66\AndroidManifest.xml:17:1-39:12
+MERGED from [com.google.firebase:firebase-auth:16.2.1] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.2.1.aar\cf7b5696c737968311a9f4745ba8cd2e\AndroidManifest.xml:17:1-42:12
+MERGED from [com.google.firebase:firebase-core:16.0.8] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\firebase-core-16.0.8.aar\28613c19035b72e1c87e19b430781c7a\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-database:16.1.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\firebase-database-16.1.0.aar\c8f1f8260410e2303c05a22c76d406b8\AndroidManifest.xml:15:1-36:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:16.0.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\play-services-auth-api-phone-16.0.0.aar\ed7cda11e1e31e26ba3462e1d8c32868\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-auth-base:16.0.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\play-services-auth-base-16.0.0.aar\2756b4b5f6e2de06ce37370da9889def\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-flags:16.0.1] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\play-services-flags-16.0.1.aar\e937765efc7406e20de6ba43851233dd\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.1] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\firebase-auth-interop-16.0.1.aar\55f38fda4d6b6a25978903dc5bce8992\AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-analytics:16.4.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.4.0.aar\860c84ac29efb49cad0f0906737f2416\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-measurement-api:16.4.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\play-services-measurement-api-16.4.0.aar\e779bf7eba8aa8b2bffdbb2b16ac95d5\AndroidManifest.xml:17:1-36:12
+MERGED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.3.aar\c8539ee7b74e628a6065b32c18833b13\AndroidManifest.xml:17:1-59:12
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\firebase-iid-interop-16.0.1.aar\73fd209745732d47aec52433cc9a88e4\AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\d35fc42bf99fbfc09b7f84774963fe28\AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.firebase:firebase-common:16.1.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\firebase-common-16.1.0.aar\44498479a771c3283f17774be1fbd620\AndroidManifest.xml:2:1-19:12
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\play-services-tasks-16.0.1.aar\3e55dbd2ae5e3752bb4022ca8879744a\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-measurement:16.4.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\play-services-measurement-16.4.0.aar\4a9b6ce27eb14af2edfef7b14c3a9f2e\AndroidManifest.xml:17:1-55:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk:16.4.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\play-services-measurement-sdk-16.4.0.aar\1497d844f85bdf32ac472339b9a1dd05\AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.4.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\play-services-measurement-impl-16.4.0.aar\55c9d5608b7ed81bcaa53cddf28a494d\AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.4.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\play-services-measurement-sdk-api-16.4.0.aar\8649acc5b22aca14237613180213edf1\AndroidManifest.xml:17:1-30:12
+MERGED from [com.google.android.gms:play-services-measurement-base:16.4.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\play-services-measurement-base-16.4.0.aar\aa5dfb07f106476f30a53a6743afd6bd\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\play-services-stats-16.0.1.aar\6a1c8cb268783d8c65997d6b37d98f7c\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-17.0.1.aar\35a52b7b72737fb812487031bcd37fe2\AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\play-services-ads-identifier-16.0.0.aar\e2efde5f3b8bb970d34a0b905037be38\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-basement:16.2.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.2.0.aar\c74dd645dc1cbd0e6aa6c86e12ea01a4\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:28.0.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\support-v4-28.0.0.aar\de4955f32f9594d2dea2db9b332e6a59\AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.PhilJay:MPAndroidChart:v3.1.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\MPAndroidChart-v3.1.0.aar\6a9d7a82698446d4e8f745305112b032\AndroidManifest.xml:2:1-20:12
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\b0299e02415eff7afdc4042761f3584c\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\4d1d3e1ec69bd37a1cbd049908e84366\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-28.0.0.aar\915364724b2ec618c704a25c630e3086\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\36eee5b70f7b033601a1bfa2f97a6347\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\08282fb9e889f47aa1307af3b532e96b\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\5665d49ef5d188f86965eaab81879f32\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:28.0.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\transition-28.0.0.aar\f9dbbe4f9286edef85a2f483f93cd02c\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\16d57077e135164290e6c887678dfb6a\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\a39f221e3a0f0da9e72d11e0377a36ca\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\33971534dcd600221d8848dd449b3504\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\5155c61952adc13c579e4b2e1da91fe0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\db95128a1378a52792653002634afc95\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\6cf6457850b80ee91526b16723972e79\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\c1f852e30864aa0099ceac79f516fc28\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\0da370e11ac2c4e5fb449cbafe56de38\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\support-media-compat-28.0.0.aar\e1b56f49210c2c555375a6b69620b85f\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\36824cdde55c4899c7bd7fc40bb629cc\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\f4b89169f1cb161c1aee0b665283e176\AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\3ba6f21b8afa83b4b578be4bcb43ab9c\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\cardview-v7-28.0.0.aar\d81878ba255bdf98f37788586fad234f\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\8f0f6ebf78079633327eb635127f8ab7\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\5e7bb45449548822dc0e53b382085068\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\7c7ebb106533f9143fc79f31b5a28bed\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\e38eff53046e2e88f69c272bd3532812\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\7716a1cf6f8cb622134850b96fb2ab99\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\a0f7ab9ba4eb4161f196f6da914cb971\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\52d0621a30f61bc80c0cbde6fc9f6c20\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\3cf5865414c1d3e47f2aae7ce6b88e47\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\016c6340815c72998b73ad1335469b4d\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-database-collection:16.0.1] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\firebase-database-collection-16.0.1.aar\921b090be8a2a9f88993cb0b5ea278fc\AndroidManifest.xml:2:1-7:12
+INJECTED from C:\Users\Aurora\Desktop\GTU SMART FARM\app\src\main\AndroidManifest.xml:2:1-46:12
+INJECTED from C:\Users\Aurora\Desktop\GTU SMART FARM\app\src\main\AndroidManifest.xml:2:1-46:12
+INJECTED from C:\Users\Aurora\Desktop\GTU SMART FARM\app\src\main\AndroidManifest.xml:2:1-46:12
+	package
+		ADDED from C:\Users\Aurora\Desktop\GTU SMART FARM\app\src\main\AndroidManifest.xml:3:5-45
+		INJECTED from C:\Users\Aurora\Desktop\GTU SMART FARM\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Aurora\Desktop\GTU SMART FARM\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\Aurora\Desktop\GTU SMART FARM\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Aurora\Desktop\GTU SMART FARM\app\src\main\AndroidManifest.xml:2:1-46:12
+		INJECTED from C:\Users\Aurora\Desktop\GTU SMART FARM\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\Aurora\Desktop\GTU SMART FARM\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Aurora\Desktop\GTU SMART FARM\app\src\main\AndroidManifest.xml:2:1-46:12
+		INJECTED from C:\Users\Aurora\Desktop\GTU SMART FARM\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Aurora\Desktop\GTU SMART FARM\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\Aurora\Desktop\GTU SMART FARM\app\src\main\AndroidManifest.xml:5:5-67
+MERGED from [com.google.firebase:firebase-database:16.1.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\firebase-database-16.1.0.aar\c8f1f8260410e2303c05a22c76d406b8\AndroidManifest.xml:26:5-67
+MERGED from [com.google.firebase:firebase-database:16.1.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\firebase-database-16.1.0.aar\c8f1f8260410e2303c05a22c76d406b8\AndroidManifest.xml:26:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:16.4.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\play-services-measurement-api-16.4.0.aar\e779bf7eba8aa8b2bffdbb2b16ac95d5\AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:16.4.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\play-services-measurement-api-16.4.0.aar\e779bf7eba8aa8b2bffdbb2b16ac95d5\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.3.aar\c8539ee7b74e628a6065b32c18833b13\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.3.aar\c8539ee7b74e628a6065b32c18833b13\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement:16.4.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\play-services-measurement-16.4.0.aar\4a9b6ce27eb14af2edfef7b14c3a9f2e\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement:16.4.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\play-services-measurement-16.4.0.aar\4a9b6ce27eb14af2edfef7b14c3a9f2e\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.4.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\play-services-measurement-impl-16.4.0.aar\55c9d5608b7ed81bcaa53cddf28a494d\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.4.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\play-services-measurement-impl-16.4.0.aar\55c9d5608b7ed81bcaa53cddf28a494d\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.4.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\play-services-measurement-sdk-api-16.4.0.aar\8649acc5b22aca14237613180213edf1\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.4.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\play-services-measurement-sdk-api-16.4.0.aar\8649acc5b22aca14237613180213edf1\AndroidManifest.xml:23:5-67
+	android:name
+		ADDED from C:\Users\Aurora\Desktop\GTU SMART FARM\app\src\main\AndroidManifest.xml:5:22-64
+application
+ADDED from C:\Users\Aurora\Desktop\GTU SMART FARM\app\src\main\AndroidManifest.xml:7:5-44:19
+MERGED from [com.android.support:design:28.0.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\b1d85e394329b89cbc23282dfd9de28b\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:28.0.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\b1d85e394329b89cbc23282dfd9de28b\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\ff5468dd882572a550c5eeedc68da169\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\ff5468dd882572a550c5eeedc68da169\AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\play-services-auth-16.0.1.aar\f223910832b11c0e2bdf9e48ba7abd66\AndroidManifest.xml:22:5-37:19
+MERGED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\play-services-auth-16.0.1.aar\f223910832b11c0e2bdf9e48ba7abd66\AndroidManifest.xml:22:5-37:19
+MERGED from [com.google.firebase:firebase-auth:16.2.1] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.2.1.aar\cf7b5696c737968311a9f4745ba8cd2e\AndroidManifest.xml:23:5-40:19
+MERGED from [com.google.firebase:firebase-auth:16.2.1] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.2.1.aar\cf7b5696c737968311a9f4745ba8cd2e\AndroidManifest.xml:23:5-40:19
+MERGED from [com.google.firebase:firebase-core:16.0.8] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\firebase-core-16.0.8.aar\28613c19035b72e1c87e19b430781c7a\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-core:16.0.8] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\firebase-core-16.0.8.aar\28613c19035b72e1c87e19b430781c7a\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-database:16.1.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\firebase-database-16.1.0.aar\c8f1f8260410e2303c05a22c76d406b8\AndroidManifest.xml:28:5-34:19
+MERGED from [com.google.firebase:firebase-database:16.1.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\firebase-database-16.1.0.aar\c8f1f8260410e2303c05a22c76d406b8\AndroidManifest.xml:28:5-34:19
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.1] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\firebase-auth-interop-16.0.1.aar\55f38fda4d6b6a25978903dc5bce8992\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.1] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\firebase-auth-interop-16.0.1.aar\55f38fda4d6b6a25978903dc5bce8992\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-analytics:16.4.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.4.0.aar\860c84ac29efb49cad0f0906737f2416\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-analytics:16.4.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.4.0.aar\860c84ac29efb49cad0f0906737f2416\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-api:16.4.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\play-services-measurement-api-16.4.0.aar\e779bf7eba8aa8b2bffdbb2b16ac95d5\AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.android.gms:play-services-measurement-api:16.4.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\play-services-measurement-api-16.4.0.aar\e779bf7eba8aa8b2bffdbb2b16ac95d5\AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.3.aar\c8539ee7b74e628a6065b32c18833b13\AndroidManifest.xml:28:5-57:19
+MERGED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.3.aar\c8539ee7b74e628a6065b32c18833b13\AndroidManifest.xml:28:5-57:19
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\firebase-iid-interop-16.0.1.aar\73fd209745732d47aec52433cc9a88e4\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\firebase-iid-interop-16.0.1.aar\73fd209745732d47aec52433cc9a88e4\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\d35fc42bf99fbfc09b7f84774963fe28\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\d35fc42bf99fbfc09b7f84774963fe28\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.firebase:firebase-common:16.1.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\firebase-common-16.1.0.aar\44498479a771c3283f17774be1fbd620\AndroidManifest.xml:11:5-17:19
+MERGED from [com.google.firebase:firebase-common:16.1.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\firebase-common-16.1.0.aar\44498479a771c3283f17774be1fbd620\AndroidManifest.xml:11:5-17:19
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\play-services-tasks-16.0.1.aar\3e55dbd2ae5e3752bb4022ca8879744a\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\play-services-tasks-16.0.1.aar\3e55dbd2ae5e3752bb4022ca8879744a\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement:16.4.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\play-services-measurement-16.4.0.aar\4a9b6ce27eb14af2edfef7b14c3a9f2e\AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.android.gms:play-services-measurement:16.4.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\play-services-measurement-16.4.0.aar\4a9b6ce27eb14af2edfef7b14c3a9f2e\AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:16.4.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\play-services-measurement-sdk-16.4.0.aar\1497d844f85bdf32ac472339b9a1dd05\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:16.4.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\play-services-measurement-sdk-16.4.0.aar\1497d844f85bdf32ac472339b9a1dd05\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.4.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\play-services-measurement-impl-16.4.0.aar\55c9d5608b7ed81bcaa53cddf28a494d\AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.4.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\play-services-measurement-impl-16.4.0.aar\55c9d5608b7ed81bcaa53cddf28a494d\AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.4.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\play-services-measurement-sdk-api-16.4.0.aar\8649acc5b22aca14237613180213edf1\AndroidManifest.xml:27:5-28:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.4.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\play-services-measurement-sdk-api-16.4.0.aar\8649acc5b22aca14237613180213edf1\AndroidManifest.xml:27:5-28:19
+MERGED from [com.google.android.gms:play-services-measurement-base:16.4.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\play-services-measurement-base-16.4.0.aar\aa5dfb07f106476f30a53a6743afd6bd\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:16.4.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\play-services-measurement-base-16.4.0.aar\aa5dfb07f106476f30a53a6743afd6bd\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\play-services-stats-16.0.1.aar\6a1c8cb268783d8c65997d6b37d98f7c\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\play-services-stats-16.0.1.aar\6a1c8cb268783d8c65997d6b37d98f7c\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-17.0.1.aar\35a52b7b72737fb812487031bcd37fe2\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-17.0.1.aar\35a52b7b72737fb812487031bcd37fe2\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\play-services-ads-identifier-16.0.0.aar\e2efde5f3b8bb970d34a0b905037be38\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\play-services-ads-identifier-16.0.0.aar\e2efde5f3b8bb970d34a0b905037be38\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-basement:16.2.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.2.0.aar\c74dd645dc1cbd0e6aa6c86e12ea01a4\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:16.2.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.2.0.aar\c74dd645dc1cbd0e6aa6c86e12ea01a4\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\36824cdde55c4899c7bd7fc40bb629cc\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\36824cdde55c4899c7bd7fc40bb629cc\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\f4b89169f1cb161c1aee0b665283e176\AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\f4b89169f1cb161c1aee0b665283e176\AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\36824cdde55c4899c7bd7fc40bb629cc\AndroidManifest.xml:22:18-91
+	android:supportsRtl
+		ADDED from C:\Users\Aurora\Desktop\GTU SMART FARM\app\src\main\AndroidManifest.xml:12:9-35
+	android:label
+		ADDED from C:\Users\Aurora\Desktop\GTU SMART FARM\app\src\main\AndroidManifest.xml:10:9-41
+	android:roundIcon
+		ADDED from C:\Users\Aurora\Desktop\GTU SMART FARM\app\src\main\AndroidManifest.xml:11:9-54
+	android:icon
+		ADDED from C:\Users\Aurora\Desktop\GTU SMART FARM\app\src\main\AndroidManifest.xml:9:9-43
+	android:allowBackup
+		ADDED from C:\Users\Aurora\Desktop\GTU SMART FARM\app\src\main\AndroidManifest.xml:8:9-35
+	android:theme
+		ADDED from C:\Users\Aurora\Desktop\GTU SMART FARM\app\src\main\AndroidManifest.xml:13:9-40
+activity#com.example.aurora.akillitarim.MainActivity
+ADDED from C:\Users\Aurora\Desktop\GTU SMART FARM\app\src\main\AndroidManifest.xml:14:9-20:20
+	android:name
+		ADDED from C:\Users\Aurora\Desktop\GTU SMART FARM\app\src\main\AndroidManifest.xml:14:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\Aurora\Desktop\GTU SMART FARM\app\src\main\AndroidManifest.xml:15:13-19:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\Aurora\Desktop\GTU SMART FARM\app\src\main\AndroidManifest.xml:16:17-69
+	android:name
+		ADDED from C:\Users\Aurora\Desktop\GTU SMART FARM\app\src\main\AndroidManifest.xml:16:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Aurora\Desktop\GTU SMART FARM\app\src\main\AndroidManifest.xml:18:17-77
+	android:name
+		ADDED from C:\Users\Aurora\Desktop\GTU SMART FARM\app\src\main\AndroidManifest.xml:18:27-74
+activity#com.example.aurora.akillitarim.TarlaStatus
+ADDED from C:\Users\Aurora\Desktop\GTU SMART FARM\app\src\main\AndroidManifest.xml:21:9-49
+	android:name
+		ADDED from C:\Users\Aurora\Desktop\GTU SMART FARM\app\src\main\AndroidManifest.xml:21:19-46
+activity#com.example.aurora.akillitarim.HomeActivity
+ADDED from C:\Users\Aurora\Desktop\GTU SMART FARM\app\src\main\AndroidManifest.xml:22:9-50
+	android:name
+		ADDED from C:\Users\Aurora\Desktop\GTU SMART FARM\app\src\main\AndroidManifest.xml:22:19-47
+activity#com.example.aurora.akillitarim.LoginActivity
+ADDED from C:\Users\Aurora\Desktop\GTU SMART FARM\app\src\main\AndroidManifest.xml:23:9-25:52
+	android:screenOrientation
+		ADDED from C:\Users\Aurora\Desktop\GTU SMART FARM\app\src\main\AndroidManifest.xml:25:13-49
+	android:name
+		ADDED from C:\Users\Aurora\Desktop\GTU SMART FARM\app\src\main\AndroidManifest.xml:24:13-42
+activity#com.example.aurora.akillitarim.NewPassActivity
+ADDED from C:\Users\Aurora\Desktop\GTU SMART FARM\app\src\main\AndroidManifest.xml:26:9-30:20
+	android:screenOrientation
+		ADDED from C:\Users\Aurora\Desktop\GTU SMART FARM\app\src\main\AndroidManifest.xml:28:13-49
+	android:name
+		ADDED from C:\Users\Aurora\Desktop\GTU SMART FARM\app\src\main\AndroidManifest.xml:27:13-44
+activity#com.example.aurora.akillitarim.RegisterActivity
+ADDED from C:\Users\Aurora\Desktop\GTU SMART FARM\app\src\main\AndroidManifest.xml:31:9-33:52
+	android:screenOrientation
+		ADDED from C:\Users\Aurora\Desktop\GTU SMART FARM\app\src\main\AndroidManifest.xml:33:13-49
+	android:name
+		ADDED from C:\Users\Aurora\Desktop\GTU SMART FARM\app\src\main\AndroidManifest.xml:32:13-45
+activity#com.example.aurora.akillitarim.ChartPie
+ADDED from C:\Users\Aurora\Desktop\GTU SMART FARM\app\src\main\AndroidManifest.xml:34:9-38:54
+	android:label
+		ADDED from C:\Users\Aurora\Desktop\GTU SMART FARM\app\src\main\AndroidManifest.xml:37:13-61
+	android:configChanges
+		ADDED from C:\Users\Aurora\Desktop\GTU SMART FARM\app\src\main\AndroidManifest.xml:36:13-74
+	android:theme
+		ADDED from C:\Users\Aurora\Desktop\GTU SMART FARM\app\src\main\AndroidManifest.xml:38:13-51
+	android:name
+		ADDED from C:\Users\Aurora\Desktop\GTU SMART FARM\app\src\main\AndroidManifest.xml:35:13-37
+activity#com.example.aurora.akillitarim.activity_chart_pie_total
+ADDED from C:\Users\Aurora\Desktop\GTU SMART FARM\app\src\main\AndroidManifest.xml:39:9-43:63
+	android:label
+		ADDED from C:\Users\Aurora\Desktop\GTU SMART FARM\app\src\main\AndroidManifest.xml:42:13-67
+	android:configChanges
+		ADDED from C:\Users\Aurora\Desktop\GTU SMART FARM\app\src\main\AndroidManifest.xml:41:13-74
+	android:theme
+		ADDED from C:\Users\Aurora\Desktop\GTU SMART FARM\app\src\main\AndroidManifest.xml:43:13-51
+	android:name
+		ADDED from C:\Users\Aurora\Desktop\GTU SMART FARM\app\src\main\AndroidManifest.xml:40:13-53
+uses-sdk
+INJECTED from C:\Users\Aurora\Desktop\GTU SMART FARM\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\Aurora\Desktop\GTU SMART FARM\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Aurora\Desktop\GTU SMART FARM\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:design:28.0.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\b1d85e394329b89cbc23282dfd9de28b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:28.0.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\b1d85e394329b89cbc23282dfd9de28b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\d1212d51610addf4e1b2644f16dc88df\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\d1212d51610addf4e1b2644f16dc88df\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\ff5468dd882572a550c5eeedc68da169\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\ff5468dd882572a550c5eeedc68da169\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\play-services-auth-16.0.1.aar\f223910832b11c0e2bdf9e48ba7abd66\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\play-services-auth-16.0.1.aar\f223910832b11c0e2bdf9e48ba7abd66\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-auth:16.2.1] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.2.1.aar\cf7b5696c737968311a9f4745ba8cd2e\AndroidManifest.xml:21:5-44
+MERGED from [com.google.firebase:firebase-auth:16.2.1] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.2.1.aar\cf7b5696c737968311a9f4745ba8cd2e\AndroidManifest.xml:21:5-44
+MERGED from [com.google.firebase:firebase-core:16.0.8] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\firebase-core-16.0.8.aar\28613c19035b72e1c87e19b430781c7a\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-core:16.0.8] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\firebase-core-16.0.8.aar\28613c19035b72e1c87e19b430781c7a\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-database:16.1.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\firebase-database-16.1.0.aar\c8f1f8260410e2303c05a22c76d406b8\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-database:16.1.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\firebase-database-16.1.0.aar\c8f1f8260410e2303c05a22c76d406b8\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.gms:play-services-auth-api-phone:16.0.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\play-services-auth-api-phone-16.0.0.aar\ed7cda11e1e31e26ba3462e1d8c32868\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:16.0.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\play-services-auth-api-phone-16.0.0.aar\ed7cda11e1e31e26ba3462e1d8c32868\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:16.0.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\play-services-auth-base-16.0.0.aar\2756b4b5f6e2de06ce37370da9889def\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:16.0.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\play-services-auth-base-16.0.0.aar\2756b4b5f6e2de06ce37370da9889def\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-flags:16.0.1] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\play-services-flags-16.0.1.aar\e937765efc7406e20de6ba43851233dd\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-flags:16.0.1] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\play-services-flags-16.0.1.aar\e937765efc7406e20de6ba43851233dd\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.1] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\firebase-auth-interop-16.0.1.aar\55f38fda4d6b6a25978903dc5bce8992\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.1] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\firebase-auth-interop-16.0.1.aar\55f38fda4d6b6a25978903dc5bce8992\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics:16.4.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.4.0.aar\860c84ac29efb49cad0f0906737f2416\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics:16.4.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.4.0.aar\860c84ac29efb49cad0f0906737f2416\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:16.4.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\play-services-measurement-api-16.4.0.aar\e779bf7eba8aa8b2bffdbb2b16ac95d5\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:16.4.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\play-services-measurement-api-16.4.0.aar\e779bf7eba8aa8b2bffdbb2b16ac95d5\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.3.aar\c8539ee7b74e628a6065b32c18833b13\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.3.aar\c8539ee7b74e628a6065b32c18833b13\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\firebase-iid-interop-16.0.1.aar\73fd209745732d47aec52433cc9a88e4\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\firebase-iid-interop-16.0.1.aar\73fd209745732d47aec52433cc9a88e4\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\d35fc42bf99fbfc09b7f84774963fe28\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\d35fc42bf99fbfc09b7f84774963fe28\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-common:16.1.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\firebase-common-16.1.0.aar\44498479a771c3283f17774be1fbd620\AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-common:16.1.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\firebase-common-16.1.0.aar\44498479a771c3283f17774be1fbd620\AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\play-services-tasks-16.0.1.aar\3e55dbd2ae5e3752bb4022ca8879744a\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\play-services-tasks-16.0.1.aar\3e55dbd2ae5e3752bb4022ca8879744a\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement:16.4.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\play-services-measurement-16.4.0.aar\4a9b6ce27eb14af2edfef7b14c3a9f2e\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement:16.4.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\play-services-measurement-16.4.0.aar\4a9b6ce27eb14af2edfef7b14c3a9f2e\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:16.4.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\play-services-measurement-sdk-16.4.0.aar\1497d844f85bdf32ac472339b9a1dd05\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:16.4.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\play-services-measurement-sdk-16.4.0.aar\1497d844f85bdf32ac472339b9a1dd05\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.4.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\play-services-measurement-impl-16.4.0.aar\55c9d5608b7ed81bcaa53cddf28a494d\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.4.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\play-services-measurement-impl-16.4.0.aar\55c9d5608b7ed81bcaa53cddf28a494d\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.4.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\play-services-measurement-sdk-api-16.4.0.aar\8649acc5b22aca14237613180213edf1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.4.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\play-services-measurement-sdk-api-16.4.0.aar\8649acc5b22aca14237613180213edf1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:16.4.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\play-services-measurement-base-16.4.0.aar\aa5dfb07f106476f30a53a6743afd6bd\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:16.4.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\play-services-measurement-base-16.4.0.aar\aa5dfb07f106476f30a53a6743afd6bd\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\play-services-stats-16.0.1.aar\6a1c8cb268783d8c65997d6b37d98f7c\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\play-services-stats-16.0.1.aar\6a1c8cb268783d8c65997d6b37d98f7c\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-17.0.1.aar\35a52b7b72737fb812487031bcd37fe2\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-17.0.1.aar\35a52b7b72737fb812487031bcd37fe2\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\play-services-ads-identifier-16.0.0.aar\e2efde5f3b8bb970d34a0b905037be38\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\play-services-ads-identifier-16.0.0.aar\e2efde5f3b8bb970d34a0b905037be38\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.2.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.2.0.aar\c74dd645dc1cbd0e6aa6c86e12ea01a4\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.2.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.2.0.aar\c74dd645dc1cbd0e6aa6c86e12ea01a4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\support-v4-28.0.0.aar\de4955f32f9594d2dea2db9b332e6a59\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\support-v4-28.0.0.aar\de4955f32f9594d2dea2db9b332e6a59\AndroidManifest.xml:20:5-44
+MERGED from [com.github.PhilJay:MPAndroidChart:v3.1.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\MPAndroidChart-v3.1.0.aar\6a9d7a82698446d4e8f745305112b032\AndroidManifest.xml:16:5-18:41
+MERGED from [com.github.PhilJay:MPAndroidChart:v3.1.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\MPAndroidChart-v3.1.0.aar\6a9d7a82698446d4e8f745305112b032\AndroidManifest.xml:16:5-18:41
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\b0299e02415eff7afdc4042761f3584c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\b0299e02415eff7afdc4042761f3584c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\4d1d3e1ec69bd37a1cbd049908e84366\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\4d1d3e1ec69bd37a1cbd049908e84366\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-28.0.0.aar\915364724b2ec618c704a25c630e3086\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-28.0.0.aar\915364724b2ec618c704a25c630e3086\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\36eee5b70f7b033601a1bfa2f97a6347\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\36eee5b70f7b033601a1bfa2f97a6347\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\08282fb9e889f47aa1307af3b532e96b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\08282fb9e889f47aa1307af3b532e96b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\5665d49ef5d188f86965eaab81879f32\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\5665d49ef5d188f86965eaab81879f32\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\transition-28.0.0.aar\f9dbbe4f9286edef85a2f483f93cd02c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\transition-28.0.0.aar\f9dbbe4f9286edef85a2f483f93cd02c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\16d57077e135164290e6c887678dfb6a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\16d57077e135164290e6c887678dfb6a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\a39f221e3a0f0da9e72d11e0377a36ca\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\a39f221e3a0f0da9e72d11e0377a36ca\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\33971534dcd600221d8848dd449b3504\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\33971534dcd600221d8848dd449b3504\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\5155c61952adc13c579e4b2e1da91fe0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\5155c61952adc13c579e4b2e1da91fe0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\db95128a1378a52792653002634afc95\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\db95128a1378a52792653002634afc95\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\6cf6457850b80ee91526b16723972e79\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\6cf6457850b80ee91526b16723972e79\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\c1f852e30864aa0099ceac79f516fc28\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\c1f852e30864aa0099ceac79f516fc28\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\0da370e11ac2c4e5fb449cbafe56de38\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\0da370e11ac2c4e5fb449cbafe56de38\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\support-media-compat-28.0.0.aar\e1b56f49210c2c555375a6b69620b85f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\support-media-compat-28.0.0.aar\e1b56f49210c2c555375a6b69620b85f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\36824cdde55c4899c7bd7fc40bb629cc\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\36824cdde55c4899c7bd7fc40bb629cc\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\f4b89169f1cb161c1aee0b665283e176\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\f4b89169f1cb161c1aee0b665283e176\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\3ba6f21b8afa83b4b578be4bcb43ab9c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\3ba6f21b8afa83b4b578be4bcb43ab9c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\cardview-v7-28.0.0.aar\d81878ba255bdf98f37788586fad234f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\cardview-v7-28.0.0.aar\d81878ba255bdf98f37788586fad234f\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\8f0f6ebf78079633327eb635127f8ab7\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\8f0f6ebf78079633327eb635127f8ab7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\5e7bb45449548822dc0e53b382085068\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\5e7bb45449548822dc0e53b382085068\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\7c7ebb106533f9143fc79f31b5a28bed\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\7c7ebb106533f9143fc79f31b5a28bed\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\e38eff53046e2e88f69c272bd3532812\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\e38eff53046e2e88f69c272bd3532812\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\7716a1cf6f8cb622134850b96fb2ab99\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\7716a1cf6f8cb622134850b96fb2ab99\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\a0f7ab9ba4eb4161f196f6da914cb971\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\a0f7ab9ba4eb4161f196f6da914cb971\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\52d0621a30f61bc80c0cbde6fc9f6c20\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\52d0621a30f61bc80c0cbde6fc9f6c20\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\3cf5865414c1d3e47f2aae7ce6b88e47\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\3cf5865414c1d3e47f2aae7ce6b88e47\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\016c6340815c72998b73ad1335469b4d\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\016c6340815c72998b73ad1335469b4d\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-database-collection:16.0.1] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\firebase-database-collection-16.0.1.aar\921b090be8a2a9f88993cb0b5ea278fc\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-database-collection:16.0.1] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\firebase-database-collection-16.0.1.aar\921b090be8a2a9f88993cb0b5ea278fc\AndroidManifest.xml:5:5-44
+INJECTED from C:\Users\Aurora\Desktop\GTU SMART FARM\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Aurora\Desktop\GTU SMART FARM\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\Aurora\Desktop\GTU SMART FARM\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Aurora\Desktop\GTU SMART FARM\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Aurora\Desktop\GTU SMART FARM\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\Aurora\Desktop\GTU SMART FARM\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Aurora\Desktop\GTU SMART FARM\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Aurora\Desktop\GTU SMART FARM\app\src\main\AndroidManifest.xml
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\play-services-auth-16.0.1.aar\f223910832b11c0e2bdf9e48ba7abd66\AndroidManifest.xml:23:9-27:75
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\play-services-auth-16.0.1.aar\f223910832b11c0e2bdf9e48ba7abd66\AndroidManifest.xml:25:13-46
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\play-services-auth-16.0.1.aar\f223910832b11c0e2bdf9e48ba7abd66\AndroidManifest.xml:26:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\play-services-auth-16.0.1.aar\f223910832b11c0e2bdf9e48ba7abd66\AndroidManifest.xml:27:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\play-services-auth-16.0.1.aar\f223910832b11c0e2bdf9e48ba7abd66\AndroidManifest.xml:24:13-93
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\play-services-auth-16.0.1.aar\f223910832b11c0e2bdf9e48ba7abd66\AndroidManifest.xml:33:9-36:110
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\play-services-auth-16.0.1.aar\f223910832b11c0e2bdf9e48ba7abd66\AndroidManifest.xml:35:13-36
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\play-services-auth-16.0.1.aar\f223910832b11c0e2bdf9e48ba7abd66\AndroidManifest.xml:36:13-107
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:16.0.1] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\play-services-auth-16.0.1.aar\f223910832b11c0e2bdf9e48ba7abd66\AndroidManifest.xml:34:13-89
+activity#com.google.firebase.auth.internal.FederatedSignInActivity
+ADDED from [com.google.firebase:firebase-auth:16.2.1] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.2.1.aar\cf7b5696c737968311a9f4745ba8cd2e\AndroidManifest.xml:24:9-31:50
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:16.2.1] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.2.1.aar\cf7b5696c737968311a9f4745ba8cd2e\AndroidManifest.xml:26:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:16.2.1] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.2.1.aar\cf7b5696c737968311a9f4745ba8cd2e\AndroidManifest.xml:28:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:16.2.1] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.2.1.aar\cf7b5696c737968311a9f4745ba8cd2e\AndroidManifest.xml:27:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-auth:16.2.1] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.2.1.aar\cf7b5696c737968311a9f4745ba8cd2e\AndroidManifest.xml:29:13-102
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:16.2.1] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.2.1.aar\cf7b5696c737968311a9f4745ba8cd2e\AndroidManifest.xml:30:13-72
+	tools:replace
+		ADDED from [com.google.firebase:firebase-auth:16.2.1] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.2.1.aar\cf7b5696c737968311a9f4745ba8cd2e\AndroidManifest.xml:31:13-47
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:16.2.1] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.2.1.aar\cf7b5696c737968311a9f4745ba8cd2e\AndroidManifest.xml:25:13-85
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-auth:16.2.1] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.2.1.aar\cf7b5696c737968311a9f4745ba8cd2e\AndroidManifest.xml:33:9-39:19
+MERGED from [com.google.firebase:firebase-database:16.1.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\firebase-database-16.1.0.aar\c8f1f8260410e2303c05a22c76d406b8\AndroidManifest.xml:29:9-33:19
+MERGED from [com.google.firebase:firebase-database:16.1.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\firebase-database-16.1.0.aar\c8f1f8260410e2303c05a22c76d406b8\AndroidManifest.xml:29:9-33:19
+MERGED from [com.google.android.gms:play-services-measurement-api:16.4.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\play-services-measurement-api-16.4.0.aar\e779bf7eba8aa8b2bffdbb2b16ac95d5\AndroidManifest.xml:27:9-33:19
+MERGED from [com.google.android.gms:play-services-measurement-api:16.4.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\play-services-measurement-api-16.4.0.aar\e779bf7eba8aa8b2bffdbb2b16ac95d5\AndroidManifest.xml:27:9-33:19
+MERGED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.3.aar\c8539ee7b74e628a6065b32c18833b13\AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.3.aar\c8539ee7b74e628a6065b32c18833b13\AndroidManifest.xml:29:9-35:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:16.2.1] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.2.1.aar\cf7b5696c737968311a9f4745ba8cd2e\AndroidManifest.xml:35:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:16.2.1] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.2.1.aar\cf7b5696c737968311a9f4745ba8cd2e\AndroidManifest.xml:34:13-84
+meta-data#com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar
+ADDED from [com.google.firebase:firebase-auth:16.2.1] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.2.1.aar\cf7b5696c737968311a9f4745ba8cd2e\AndroidManifest.xml:36:13-38:85
+	android:value
+		ADDED from [com.google.firebase:firebase-auth:16.2.1] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.2.1.aar\cf7b5696c737968311a9f4745ba8cd2e\AndroidManifest.xml:38:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:16.2.1] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.2.1.aar\cf7b5696c737968311a9f4745ba8cd2e\AndroidManifest.xml:37:17-109
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.firebase:firebase-database:16.1.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\firebase-database-16.1.0.aar\c8f1f8260410e2303c05a22c76d406b8\AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:16.4.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\play-services-measurement-api-16.4.0.aar\e779bf7eba8aa8b2bffdbb2b16ac95d5\AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:16.4.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\play-services-measurement-api-16.4.0.aar\e779bf7eba8aa8b2bffdbb2b16ac95d5\AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.3.aar\c8539ee7b74e628a6065b32c18833b13\AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.3.aar\c8539ee7b74e628a6065b32c18833b13\AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.gms:play-services-measurement:16.4.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\play-services-measurement-16.4.0.aar\4a9b6ce27eb14af2edfef7b14c3a9f2e\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement:16.4.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\play-services-measurement-16.4.0.aar\4a9b6ce27eb14af2edfef7b14c3a9f2e\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.4.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\play-services-measurement-impl-16.4.0.aar\55c9d5608b7ed81bcaa53cddf28a494d\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.4.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\play-services-measurement-impl-16.4.0.aar\55c9d5608b7ed81bcaa53cddf28a494d\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.4.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\play-services-measurement-sdk-api-16.4.0.aar\8649acc5b22aca14237613180213edf1\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.4.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\play-services-measurement-sdk-api-16.4.0.aar\8649acc5b22aca14237613180213edf1\AndroidManifest.xml:24:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-database:16.1.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\firebase-database-16.1.0.aar\c8f1f8260410e2303c05a22c76d406b8\AndroidManifest.xml:25:22-76
+meta-data#com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar
+ADDED from [com.google.firebase:firebase-database:16.1.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\firebase-database-16.1.0.aar\c8f1f8260410e2303c05a22c76d406b8\AndroidManifest.xml:30:13-32:85
+	android:value
+		ADDED from [com.google.firebase:firebase-database:16.1.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\firebase-database-16.1.0.aar\c8f1f8260410e2303c05a22c76d406b8\AndroidManifest.xml:32:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-database:16.1.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\firebase-database-16.1.0.aar\c8f1f8260410e2303c05a22c76d406b8\AndroidManifest.xml:31:17-109
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.android.gms:play-services-measurement-api:16.4.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\play-services-measurement-api-16.4.0.aar\e779bf7eba8aa8b2bffdbb2b16ac95d5\AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.3.aar\c8539ee7b74e628a6065b32c18833b13\AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.3.aar\c8539ee7b74e628a6065b32c18833b13\AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement:16.4.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\play-services-measurement-16.4.0.aar\4a9b6ce27eb14af2edfef7b14c3a9f2e\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement:16.4.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\play-services-measurement-16.4.0.aar\4a9b6ce27eb14af2edfef7b14c3a9f2e\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.4.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\play-services-measurement-impl-16.4.0.aar\55c9d5608b7ed81bcaa53cddf28a494d\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.4.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\play-services-measurement-impl-16.4.0.aar\55c9d5608b7ed81bcaa53cddf28a494d\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.4.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\play-services-measurement-sdk-api-16.4.0.aar\8649acc5b22aca14237613180213edf1\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.4.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\play-services-measurement-sdk-api-16.4.0.aar\8649acc5b22aca14237613180213edf1\AndroidManifest.xml:25:5-68
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:16.4.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\play-services-measurement-api-16.4.0.aar\e779bf7eba8aa8b2bffdbb2b16ac95d5\AndroidManifest.xml:24:22-65
+meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
+ADDED from [com.google.android.gms:play-services-measurement-api:16.4.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\play-services-measurement-api-16.4.0.aar\e779bf7eba8aa8b2bffdbb2b16ac95d5\AndroidManifest.xml:30:13-32:85
+	android:value
+		ADDED from [com.google.android.gms:play-services-measurement-api:16.4.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\play-services-measurement-api-16.4.0.aar\e779bf7eba8aa8b2bffdbb2b16ac95d5\AndroidManifest.xml:32:17-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:16.4.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\play-services-measurement-api-16.4.0.aar\e779bf7eba8aa8b2bffdbb2b16ac95d5\AndroidManifest.xml:31:17-139
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.3.aar\c8539ee7b74e628a6065b32c18833b13\AndroidManifest.xml:26:5-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.3.aar\c8539ee7b74e628a6065b32c18833b13\AndroidManifest.xml:26:22-79
+meta-data#com.google.firebase.components:com.google.firebase.iid.Registrar
+ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.3.aar\c8539ee7b74e628a6065b32c18833b13\AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.3.aar\c8539ee7b74e628a6065b32c18833b13\AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.3.aar\c8539ee7b74e628a6065b32c18833b13\AndroidManifest.xml:33:17-96
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.3.aar\c8539ee7b74e628a6065b32c18833b13\AndroidManifest.xml:37:9-44:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.3.aar\c8539ee7b74e628a6065b32c18833b13\AndroidManifest.xml:39:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.3.aar\c8539ee7b74e628a6065b32c18833b13\AndroidManifest.xml:40:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.3.aar\c8539ee7b74e628a6065b32c18833b13\AndroidManifest.xml:38:13-78
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.3.aar\c8539ee7b74e628a6065b32c18833b13\AndroidManifest.xml:41:13-43:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.3.aar\c8539ee7b74e628a6065b32c18833b13\AndroidManifest.xml:42:17-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.3.aar\c8539ee7b74e628a6065b32c18833b13\AndroidManifest.xml:42:25-78
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.3.aar\c8539ee7b74e628a6065b32c18833b13\AndroidManifest.xml:50:9-56:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.3.aar\c8539ee7b74e628a6065b32c18833b13\AndroidManifest.xml:52:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.3.aar\c8539ee7b74e628a6065b32c18833b13\AndroidManifest.xml:51:13-77
+intent-filter#action:name:com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.3.aar\c8539ee7b74e628a6065b32c18833b13\AndroidManifest.xml:53:13-55:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.3.aar\c8539ee7b74e628a6065b32c18833b13\AndroidManifest.xml:53:28-51
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.3.aar\c8539ee7b74e628a6065b32c18833b13\AndroidManifest.xml:54:17-80
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.3.aar\c8539ee7b74e628a6065b32c18833b13\AndroidManifest.xml:54:25-77
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\d35fc42bf99fbfc09b7f84774963fe28\AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\d35fc42bf99fbfc09b7f84774963fe28\AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\d35fc42bf99fbfc09b7f84774963fe28\AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\d35fc42bf99fbfc09b7f84774963fe28\AndroidManifest.xml:24:13-79
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:16.1.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\firebase-common-16.1.0.aar\44498479a771c3283f17774be1fbd620\AndroidManifest.xml:12:9-16:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:16.1.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\firebase-common-16.1.0.aar\44498479a771c3283f17774be1fbd620\AndroidManifest.xml:14:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:16.1.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\firebase-common-16.1.0.aar\44498479a771c3283f17774be1fbd620\AndroidManifest.xml:15:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:16.1.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\firebase-common-16.1.0.aar\44498479a771c3283f17774be1fbd620\AndroidManifest.xml:16:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:16.1.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\firebase-common-16.1.0.aar\44498479a771c3283f17774be1fbd620\AndroidManifest.xml:13:13-77
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.google.android.gms:play-services-measurement:16.4.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\play-services-measurement-16.4.0.aar\4a9b6ce27eb14af2edfef7b14c3a9f2e\AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.4.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\play-services-measurement-impl-16.4.0.aar\55c9d5608b7ed81bcaa53cddf28a494d\AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.4.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\play-services-measurement-impl-16.4.0.aar\55c9d5608b7ed81bcaa53cddf28a494d\AndroidManifest.xml:26:5-110
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:16.4.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\play-services-measurement-16.4.0.aar\4a9b6ce27eb14af2edfef7b14c3a9f2e\AndroidManifest.xml:26:22-107
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.android.gms:play-services-measurement:16.4.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\play-services-measurement-16.4.0.aar\4a9b6ce27eb14af2edfef7b14c3a9f2e\AndroidManifest.xml:29:9-33:20
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:16.4.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\play-services-measurement-16.4.0.aar\4a9b6ce27eb14af2edfef7b14c3a9f2e\AndroidManifest.xml:31:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:16.4.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\play-services-measurement-16.4.0.aar\4a9b6ce27eb14af2edfef7b14c3a9f2e\AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:16.4.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\play-services-measurement-16.4.0.aar\4a9b6ce27eb14af2edfef7b14c3a9f2e\AndroidManifest.xml:30:13-85
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.android.gms:play-services-measurement:16.4.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\play-services-measurement-16.4.0.aar\4a9b6ce27eb14af2edfef7b14c3a9f2e\AndroidManifest.xml:34:9-42:20
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.4.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\play-services-measurement-impl-16.4.0.aar\55c9d5608b7ed81bcaa53cddf28a494d\AndroidManifest.xml:29:9-37:20
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.4.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\play-services-measurement-impl-16.4.0.aar\55c9d5608b7ed81bcaa53cddf28a494d\AndroidManifest.xml:29:9-37:20
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:16.4.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\play-services-measurement-16.4.0.aar\4a9b6ce27eb14af2edfef7b14c3a9f2e\AndroidManifest.xml:36:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:16.4.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\play-services-measurement-16.4.0.aar\4a9b6ce27eb14af2edfef7b14c3a9f2e\AndroidManifest.xml:37:13-36
+	android:permission
+		ADDED from [com.google.android.gms:play-services-measurement:16.4.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\play-services-measurement-16.4.0.aar\4a9b6ce27eb14af2edfef7b14c3a9f2e\AndroidManifest.xml:38:13-69
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:16.4.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\play-services-measurement-16.4.0.aar\4a9b6ce27eb14af2edfef7b14c3a9f2e\AndroidManifest.xml:35:13-100
+intent-filter#action:name:com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.android.gms:play-services-measurement:16.4.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\play-services-measurement-16.4.0.aar\4a9b6ce27eb14af2edfef7b14c3a9f2e\AndroidManifest.xml:39:13-41:29
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.android.gms:play-services-measurement:16.4.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\play-services-measurement-16.4.0.aar\4a9b6ce27eb14af2edfef7b14c3a9f2e\AndroidManifest.xml:40:17-79
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:16.4.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\play-services-measurement-16.4.0.aar\4a9b6ce27eb14af2edfef7b14c3a9f2e\AndroidManifest.xml:40:25-76
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.android.gms:play-services-measurement:16.4.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\play-services-measurement-16.4.0.aar\4a9b6ce27eb14af2edfef7b14c3a9f2e\AndroidManifest.xml:44:9-47:40
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:16.4.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\play-services-measurement-16.4.0.aar\4a9b6ce27eb14af2edfef7b14c3a9f2e\AndroidManifest.xml:46:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:16.4.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\play-services-measurement-16.4.0.aar\4a9b6ce27eb14af2edfef7b14c3a9f2e\AndroidManifest.xml:47:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:16.4.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\play-services-measurement-16.4.0.aar\4a9b6ce27eb14af2edfef7b14c3a9f2e\AndroidManifest.xml:45:13-84
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.android.gms:play-services-measurement:16.4.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\play-services-measurement-16.4.0.aar\4a9b6ce27eb14af2edfef7b14c3a9f2e\AndroidManifest.xml:48:9-52:72
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:16.4.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\play-services-measurement-16.4.0.aar\4a9b6ce27eb14af2edfef7b14c3a9f2e\AndroidManifest.xml:50:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:16.4.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\play-services-measurement-16.4.0.aar\4a9b6ce27eb14af2edfef7b14c3a9f2e\AndroidManifest.xml:51:13-37
+	android:permission
+		ADDED from [com.google.android.gms:play-services-measurement:16.4.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\play-services-measurement-16.4.0.aar\4a9b6ce27eb14af2edfef7b14c3a9f2e\AndroidManifest.xml:52:13-69
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:16.4.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\play-services-measurement-16.4.0.aar\4a9b6ce27eb14af2edfef7b14c3a9f2e\AndroidManifest.xml:49:13-87
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:16.2.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.2.0.aar\c74dd645dc1cbd0e6aa6c86e12ea01a4\AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:16.2.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.2.0.aar\c74dd645dc1cbd0e6aa6c86e12ea01a4\AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:16.2.0] C:\Users\Aurora\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.2.0.aar\c74dd645dc1cbd0e6aa6c86e12ea01a4\AndroidManifest.xml:24:13-58

@@ -1,0 +1,149 @@
+5.26.2019-22:4:17 -> Water Detected!
+5.26.2019-22:4:20 -> Water not Detected!
+5.26.2019-22:4:22 -> Water Detected!
+5.26.2019-22:4:26 -> Water not Detected!
+5.26.2019-22:4:29 -> Water not Detected!
+5.26.2019-22:4:30 -> Water not Detected!
+5.26.2019-23:4:19 -> Connecting to database.
+5.26.2019-23:4:21 -> GTUsmartfarmSinanElveren
+5.26.2019-23:4:21 -> Connected to database.
+5.26.2019-23:4:21 -> Checking infield status
+5.26.2019-23:6:13 -> Connecting to database.
+5.26.2019-23:6:15 -> GTUsmartfarmSinanElveren
+5.26.2019-23:6:15 -> Connected to database.
+5.26.2019-23:6:15 -> Checking infield status
+5.26.2019-23:10:9 -> Connecting to database.
+5.26.2019-23:10:11 -> GTUsmartfarmSinanElveren
+5.26.2019-23:10:11 -> Connected to database.
+5.26.2019-23:10:11 -> Checking infield status
+5.26.2019-23:10:12 -> HumidityStatus : False
+5.26.2019-23:10:12 -> RainStatus : True
+5.26.2019-23:13:54 -> Connecting to database.
+5.26.2019-23:13:55 -> GTUsmartfarmSinanElveren
+5.26.2019-23:13:56 -> Connected to database.
+5.26.2019-23:13:56 -> Checking infield status
+5.26.2019-23:13:56 -> HumidityStatus : False
+5.26.2019-23:13:56 -> RainStatus : False
+5.26.2019-23:15:0 -> Water Detected!
+5.26.2019-23:15:1 -> HumidityStatus : True
+5.26.2019-23:15:2 -> Water Detected!
+5.26.2019-23:15:2 -> HumidityStatus : True
+5.26.2019-23:15:2 -> ServoStatus : False
+5.26.2019-23:15:8 -> Water not Detected!
+5.26.2019-23:15:8 -> HumidityStatus : False
+5.26.2019-23:15:9 -> Water not Detected!
+5.26.2019-23:15:10 -> HumidityStatus : False
+5.26.2019-23:15:11 -> It's rainy
+5.26.2019-23:15:12 -> RainStatus : True
+5.26.2019-23:15:13 -> It's rainy
+5.26.2019-23:15:13 -> RainStatus : True
+5.26.2019-23:16:2 -> here is no rain
+5.26.2019-23:16:3 -> RainStatus : False
+5.26.2019-23:16:4 -> here is no rain
+5.26.2019-23:16:5 -> RainStatus : False
+5.26.2019-23:16:10 -> ServoStatus : True
+5.26.2019-23:16:12 -> Water Detected!
+5.26.2019-23:16:12 -> HumidityStatus : True
+5.26.2019-23:16:13 -> Water Detected!
+5.26.2019-23:16:14 -> ServoStatus : False
+5.26.2019-23:16:14 -> HumidityStatus : True
+5.26.2019-23:16:30 -> Water not Detected!
+5.26.2019-23:16:31 -> HumidityStatus : False
+5.26.2019-23:16:32 -> Water not Detected!
+5.26.2019-23:16:33 -> HumidityStatus : False
+5.26.2019-23:16:34 -> Water Detected!
+5.26.2019-23:16:34 -> HumidityStatus : True
+5.26.2019-23:16:35 -> Water Detected!
+5.26.2019-23:16:36 -> HumidityStatus : True
+5.26.2019-23:16:37 -> It's rainy
+5.26.2019-23:16:37 -> RainStatus : True
+5.26.2019-23:16:46 -> here is no rain
+5.26.2019-23:16:46 -> RainStatus : False
+5.26.2019-23:16:47 -> here is no rain
+5.26.2019-23:16:48 -> RainStatus : False
+5.26.2019-23:16:49 -> Water not Detected!
+5.26.2019-23:16:49 -> HumidityStatus : False
+5.26.2019-23:16:58 -> ServoStatus : True
+5.26.2019-23:23:37 -> Connecting to database.
+5.26.2019-23:23:38 -> GTUsmartfarmSinanElveren
+5.26.2019-23:23:39 -> Connected to database.
+5.26.2019-23:23:39 -> Checking infield status
+5.26.2019-23:23:40 -> HumidityStatus : False
+5.26.2019-23:23:40 -> RainStatus : False
+5.26.2019-23:23:47 -> Water Detected!
+5.26.2019-23:23:47 -> HumidityStatus : True
+5.26.2019-23:23:48 -> Water Detected!
+5.26.2019-23:23:49 -> HumidityStatus : True
+5.26.2019-23:25:52 -> Connecting to database.
+5.26.2019-23:25:54 -> GTUsmartfarmSinanElveren
+5.26.2019-23:25:54 -> Connected to database.
+5.26.2019-23:25:54 -> Checking infield status
+5.26.2019-23:25:55 -> HumidityStatus : False
+5.26.2019-23:25:55 -> RainStatus : False
+5.26.2019-23:26:6 -> Water Detected!
+5.26.2019-23:26:7 -> HumidityStatus : True
+5.26.2019-23:26:12 -> Water not Detected!
+5.26.2019-23:26:13 -> HumidityStatus : False
+5.26.2019-23:26:18 -> Water Detected!
+5.26.2019-23:26:19 -> Water Detected!
+5.26.2019-23:26:19 -> HumidityStatus : True
+5.26.2019-23:26:20 -> HumidityStatus : True
+5.26.2019-23:26:20 -> Water Detected!
+5.26.2019-23:26:20 -> HumidityStatus : True
+5.26.2019-23:26:21 -> Water Detected!
+5.26.2019-23:26:21 -> HumidityStatus : True
+5.26.2019-23:26:30 -> Water not Detected!
+5.26.2019-23:26:31 -> HumidityStatus : False
+5.26.2019-23:26:45 -> It's rainy
+5.26.2019-23:26:46 -> RainStatus : True
+5.26.2019-23:26:49 -> here is no rain
+5.26.2019-23:26:49 -> RainStatus : False
+5.26.2019-23:26:54 -> Water Detected!
+5.26.2019-23:26:54 -> HumidityStatus : True
+5.26.2019-23:26:58 -> ServoStatus : False
+5.26.2019-23:27:2 -> Water not Detected!
+5.26.2019-23:27:2 -> HumidityStatus : False
+5.26.2019-23:27:10 -> ServoStatus : True
+5.26.2019-23:27:12 -> Water Detected!
+5.26.2019-23:27:12 -> HumidityStatus : True
+5.26.2019-23:27:14 -> ServoStatus : False
+5.26.2019-23:27:15 -> Water not Detected!
+5.26.2019-23:27:15 -> HumidityStatus : False
+5.26.2019-23:27:24 -> ServoStatus : True
+5.26.2019-23:27:28 -> Water Detected!
+5.26.2019-23:27:28 -> HumidityStatus : True
+5.26.2019-23:27:36 -> Water not Detected!
+5.26.2019-23:27:37 -> HumidityStatus : False
+5.26.2019-23:27:40 -> It's rainy
+5.26.2019-23:27:40 -> RainStatus : True
+5.26.2019-23:27:41 -> It's rainy
+5.26.2019-23:27:41 -> RainStatus : True
+5.26.2019-23:27:41 -> It's rainy
+5.26.2019-23:27:42 -> RainStatus : True
+5.26.2019-23:27:51 -> here is no rain
+5.26.2019-23:27:51 -> RainStatus : False
+5.26.2019-23:28:0 -> ServoStatus : True
+5.26.2019-23:28:3 -> It's rainy
+5.26.2019-23:28:4 -> RainStatus : True
+5.26.2019-23:28:14 -> ServoStatus : False
+5.26.2019-23:28:15 -> here is no rain
+5.26.2019-23:28:16 -> RainStatus : False
+5.26.2019-23:28:24 -> ServoStatus : True
+5.26.2019-23:29:44 -> Connecting to database.
+5.26.2019-23:29:45 -> GTUsmartfarmSinanElveren
+5.26.2019-23:29:46 -> Connected to database.
+5.26.2019-23:29:46 -> Checking infield status
+5.26.2019-23:29:46 -> HumidityStatus : False
+5.26.2019-23:29:46 -> RainStatus : False
+5.26.2019-23:29:47 -> Water Detected!
+5.26.2019-23:29:47 -> HumidityStatus : True
+5.26.2019-23:29:52 -> Water not Detected!
+5.26.2019-23:29:53 -> HumidityStatus : False
+5.26.2019-23:29:53 -> ServoStatus : False
+5.26.2019-23:30:2 -> Water Detected!
+5.26.2019-23:30:2 -> ServoStatus is not controllable
+5.26.2019-23:30:2 -> HumidityStatus : True
+5.26.2019-23:30:5 -> ServoStatus is not controllable
+5.26.2019-23:30:9 -> Water not Detected!
+5.26.2019-23:30:9 -> HumidityStatus : False
+5.26.2019-23:30:17 -> ServoStatus : True

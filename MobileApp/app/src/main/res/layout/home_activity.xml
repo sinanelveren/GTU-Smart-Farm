@@ -29,16 +29,41 @@
             app:elevation="0dp"
             android:onClick="tickClicked"
             />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="40dp">
+    <Button
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="45dp"
+        android:gravity="center"
+        android:visibility="invisible"
+        />
 
-        <Switch
-            android:id="@+id/Bildirimler"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Bildirimler"
-            android:textStyle="bold"
-            android:textColor="@color/colorText"
-            android:checked="true"
-            android:layout_gravity="end"/>
+    <Button
+        android:id="@+id/refresh"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:text="Yenile"
+        android:background="@color/colorPrimaryDarkTransparent"
+        />
+    <Switch
+        android:id="@+id/vanaOnOff"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text="Vana Otomatik"
+        android:textStyle="bold"
+        android:textColor="@color/colorText"
+        android:checked="true"
+        android:layout_gravity="end"
+        android:gravity="right"/>
+
+
+</LinearLayout>
+
     </android.support.design.widget.AppBarLayout>
 
 

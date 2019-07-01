@@ -35,7 +35,7 @@ public class NewPassActivity  extends AppCompatActivity {
         btnNewPass.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                String email = ((EditText)findViewById(R.id.uyeEmail)).toString();
+                final String email = ((EditText)findViewById(R.id.uyeEmail)).toString();
             //    String email = (EditText) email.getText().toString();
             //    String email;
             //    email = ((EditText)findViewById(R.id.uyeEmail).getText()).toString();
@@ -54,7 +54,7 @@ public class NewPassActivity  extends AppCompatActivity {
                                     Toast.makeText(getApplicationContext(),"Yeni parola e-posta adresinize gönderildi",Toast.LENGTH_SHORT).show();
                                 }
                                 else{
-                                    Toast.makeText(getApplicationContext(),"e-posta gönderilemedi",Toast.LENGTH_SHORT).show();
+                                    Toast.makeText(getApplicationContext(),"e-posta gönderilemedi" + email ,Toast.LENGTH_SHORT).show();
                                 }
                             }
                         });
